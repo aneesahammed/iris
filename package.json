@@ -1,0 +1,27 @@
+{
+  "name": "iris-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Iris — standalone TypeScript client for OpenAI Codex (ChatGPT) OAuth auth.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "check": "npm run build && npm test",
+    "smoke": "npm run build && node scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
