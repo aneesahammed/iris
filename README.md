@@ -42,3 +42,7 @@ Streaming, device-code login, env vars (`IRIS_AUTH_FILE`, `IRIS_BASE_URL`, `IRIS
 | `npm test` | Run the vitest suite |
 | `npm run check` | Build + test |
 | `npm run smoke` | Build, then make a real authenticated call to confirm it works |
+
+## License
+
+[MIT](LICENSE) — not affiliated with or endorsed by OpenAI. Use at your own risk.
