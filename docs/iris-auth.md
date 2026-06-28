@@ -47,7 +47,7 @@ So no external tool needs to be installed or running — only OpenAI's auth + Co
 ## Run
 
 ```bash
-cd /Users/aneesahammed/Documents/dev/ai/iris
+cd iris
 npm install
 npm run build
 ```
